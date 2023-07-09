@@ -1,0 +1,45 @@
+{
+  "name": "@stricahq/buffer-list",
+  "version": "1.0.0",
+  "description": "A simple buffer storage for nodejs",
+  "main": "dist/index.js",
+  "keywords": [
+    "buffer storage",
+    "buffer list"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StricaHQ/buffer-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StricaHQ/buffer-list/issues"
+  },
+  "homepage": "https://github.com/StricaHQ/buffer-list#readme",
+  "scripts": {
+    "docs": "rm -rf docs && typedoc",
+    "build": "rm -rf dist && tsc",
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "eslint --fix 'src/**/*.ts'"
+  },
+  "author": "Strica",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^3.0.0",
+    "typedoc": "^0.24.8",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ]
+}
